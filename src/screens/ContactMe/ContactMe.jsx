@@ -10,7 +10,7 @@ export default function ContactMe() {
         className="flex h-screen w-screen flex-col items-center justify-center"
         id="contact"
       >
-        <div className="flex w-full max-w-[1100px] flex-col gap-5 p-5">
+        <div className="flex w-full max-w-[1100px] flex-col gap-10 p-5">
           <h2 className="font-Syne text-5xl font-bold text-neutral-700 dark:text-neutral-500">
             Get In Contact
           </h2>
@@ -24,11 +24,16 @@ export default function ContactMe() {
               text={[<SiMaildotru />, "Email Me"].map((item, index) => {
                 return <div key={index}>{item}</div>;
               })}
+              link={"mailto: landon.grinders@gmail.com"}
             />
+
             <Button
-              text={[<FaTwitter />, "DM Me"].map((item, index) => {
-                return <div key={index}>{item}</div>;
-              })}
+              text={[<FaTwitter />, <FaXTwitter />, "DM Me"].map(
+                (item, index) => {
+                  return <div key={index}>{item}</div>;
+                },
+              )}
+              link={"https://x.com/grindersdev"}
             />
           </div>
         </div>

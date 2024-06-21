@@ -18,7 +18,7 @@ export default function Links() {
           duration: 0.5,
         }}
       >
-        <a href="">
+        <a href="https://github.com/lgrinders" target="blank_">
           <FaGithubSquare />
         </a>
         <a href="">

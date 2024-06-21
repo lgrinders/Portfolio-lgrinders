@@ -6,3 +6,6 @@
   scroll-behavior: smooth;
 }
 
+.sidetext {
+  writing-mode: vertical-rl;
+}

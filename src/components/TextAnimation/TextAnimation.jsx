@@ -5,9 +5,9 @@ import Links from "../Links/Links";
 export default function TextAnimation() {
   const [hasPlayed, setHasPlayed] = useState(false);
 
-  const heading = "Front End React Developer";
+  const heading = "Hi, I'm a Front End React Developer";
   const description =
-    "Hi, my name is Landon Grinderslev. I am a passionate Developer based in Nashville, Tennessee.";
+    "My name is Landon Grinderslev and, I am a passionate Developer based right outside of Nashville, Tennessee.";
 
   const headingChars = heading.split("");
   const descriptionChars = description.split("");

@@ -1,6 +1,7 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { FaGithubSquare, FaExternalLinkSquareAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLink } from "react-icons/fa6";
 
 export default function TiltCard({
   paragraph,
@@ -68,7 +69,7 @@ export default function TiltCard({
           transformStyle: "preserve-3d",
         }}
         initial={{
-          scale: 0.5,
+          scale: 0.75,
         }}
         whileInView={{
           scale: 1,
@@ -90,24 +91,34 @@ export default function TiltCard({
           <h2 className="mb-5 hidden font-Syne text-4xl font-bold text-white xl:block">
             {name}
           </h2>
-          <div className="flex max-h-72 max-w-96 flex-col justify-between gap-5 rounded-3xl bg-black/50 sm:max-w-[600px] sm:h-[500px]  p-5 xl:h-96 xl:w-96">
-            <p className="font-DMMono text-lg text-white">{paragraph}</p>
-            <div className="flex items-center justify-center gap-2 text-white">
-              <a href={link1}>
-                <FaGithubSquare size={30} />
+          <div className="flex max-h-72 max-w-96 flex-col justify-between gap-5 rounded-3xl bg-black/50 p-5 sm:h-[500px] sm:max-w-[600px] xl:h-96 xl:w-96">
+            <p className="font-DMMono text-white">{paragraph}</p>
+            <div className="flex items-center justify-center gap-2 text-4xl text-white">
+              <a
+                href={link1}
+                target="blank_"
+                className="duration-200 hover:text-white/50"
+              >
+                <FaGithub />
               </a>
-              <a href={link2}>
-                <FaExternalLinkSquareAlt size={30} />
+              <a
+                href={link2}
+                target="blank_"
+                className="duration-200 hover:text-white/50"
+              >
+                <FaLink />
               </a>
             </div>
           </div>
         </div>
 
         <div
-          className={`xl:absolute ${style3} mt-5 flex max-w-96 flex-col sm:max-w-[600px] items-center justify-center gap-2 rounded-3xl bg-black/20 dark:bg-white/20 p-2 xl:-top-36 xl:max-w-[800px]`}
+          className={`xl:absolute ${style3} mt-5 flex max-w-96 flex-col items-center justify-center gap-2 rounded-3xl bg-white/20 p-4 dark:bg-white/20 sm:max-w-[600px] xl:-top-36 xl:max-w-[800px]`}
         >
           <img src={image} className="rounded-2xl" />
-          <div className="flex gap-2 text-4xl text-white">{icons}</div>
+          <div className="flex gap-2 p-2 text-4xl text-neutral-700 dark:text-white">
+            {icons}
+          </div>
         </div>
       </motion.div>
     </>

@@ -15,8 +15,8 @@ export default function Info() {
               As a passionate front-end developer, I thrive on creating websites
               that not only look stunning but also provide an exceptional user
               experience. My goal is to design engaging interfaces that drive
-              customer interaction and deliver value to everyone involved. I am
-              committed to continuous learning and always eager to expand my
+              customer interaction and deliver value to every party involved. I
+              am committed to continuous learning and always eager to expand my
               skills and knowledge in the ever-evolving field of web
               development.
             </p>
