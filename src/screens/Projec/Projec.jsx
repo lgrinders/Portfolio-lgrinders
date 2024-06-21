@@ -1,5 +1,5 @@
 import TiltCard from "../../components/TiltCard/TiltCard";
-import { SiTailwindcss, SiReact, SiFramer } from "react-icons/si";
+import { SiTailwindcss, SiReact, SiFramer, SiCss3 } from "react-icons/si";
 
 export default function Projec() {
   return (
@@ -21,6 +21,7 @@ export default function Projec() {
             icons={[
               <SiTailwindcss title="Tailwind" />,
               <SiReact title="React" />,
+              <SiCss3 title="CSS"/>
             ].map((icon, index) => {
               return <div key={index}>{icon}</div>;
             })}

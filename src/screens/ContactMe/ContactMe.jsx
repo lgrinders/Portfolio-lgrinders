@@ -20,21 +20,31 @@ export default function ContactMe() {
             very soon!
           </p>
           <div className="flex justify-center gap-5 font-Syne font-bold">
-            <Button
-              text={[<SiMaildotru />, "Email Me"].map((item, index) => {
-                return <div key={index}>{item}</div>;
-              })}
-              link={"mailto: landon.grinders@gmail.com"}
-            />
-
-            <Button
-              text={[<FaTwitter />, <FaXTwitter />, "DM Me"].map(
-                (item, index) => {
+            <div className="flex flex-col items-center justify-center gap-3">
+              <Button
+                text={[<SiMaildotru />, "Email Me"].map((item, index) => {
                   return <div key={index}>{item}</div>;
-                },
-              )}
-              link={"https://x.com/grindersdev"}
-            />
+                })}
+                link={"mailto: landon.grinders@gmail.com"}
+              />
+              <h2 className="text-neutral-700 dark:text-neutral-500 font-DMMono font-medium">
+                landon.grinders@gmail.com
+              </h2>
+            </div>
+
+            <div className="flex flex-col items-center justify-center gap-3">
+              <Button
+                text={[<FaTwitter />, <FaXTwitter />, "DM Me"].map(
+                  (item, index) => {
+                    return <div key={index}>{item}</div>;
+                  },
+                )}
+                link={"https://x.com/grindersdev"}
+              />
+              <h2 className="text-neutral-700 dark:text-neutral-500 font-DMMono font-medium">
+                @grinders.dev
+              </h2>
+            </div>
           </div>
         </div>
       </div>
