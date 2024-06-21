@@ -13,6 +13,7 @@ export default function TiltCard({
   style3,
   link1,
   link2,
+  altText,
 }) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -99,14 +100,14 @@ export default function TiltCard({
                 target="blank_"
                 className="duration-200 hover:text-white/50"
               >
-                <FaGithub />
+                <FaGithub title="Github" />
               </a>
               <a
                 href={link2}
                 target="blank_"
                 className="duration-200 hover:text-white/50"
               >
-                <FaLink />
+                <FaLink title="Website Link" />
               </a>
             </div>
           </div>
@@ -115,7 +116,7 @@ export default function TiltCard({
         <div
           className={`xl:absolute ${style3} mt-5 flex max-w-96 flex-col items-center justify-center gap-2 rounded-3xl bg-white/20 p-4 dark:bg-white/20 sm:max-w-[600px] xl:-top-36 xl:max-w-[800px]`}
         >
-          <img src={image} className="rounded-2xl" />
+          <img src={image} alt={altText} className="rounded-2xl" />
           <div className="flex gap-2 p-2 text-4xl text-neutral-700 dark:text-white">
             {icons}
           </div>

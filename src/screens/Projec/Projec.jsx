@@ -18,13 +18,17 @@ export default function Projec() {
             paragraph={
               "Carmera is a efficient and sleek website for car photography. Users can get extimates, view a photo gallery and get information about everything having to do with Carmera's services."
             }
-            icons={[<SiTailwindcss />, <SiReact />].map((icon, index) => {
+            icons={[
+              <SiTailwindcss title="Tailwind" />,
+              <SiReact title="React" />,
+            ].map((icon, index) => {
               return <div key={index}>{icon}</div>;
             })}
             style1={"items-end"}
             style2={"xl:justify-end"}
             style3={"xl:-left-16"}
             link1={"https://github.com/lgrinders/Carmera"}
+            altText={"Carmera website front page"}
           />
           <TiltCard
             name={"WeatherIt"}
@@ -32,15 +36,18 @@ export default function Projec() {
             paragraph={
               "WeatherIt is a clean website that uses two apis working in conjunction to fetch location and weather data. It also has an animated svg in the background for a playfull look."
             }
-            icons={[<SiTailwindcss />, <SiReact />, <SiFramer />].map(
-              (icon, index) => {
-                return <div key={index}>{icon}</div>;
-              },
-            )}
+            icons={[
+              <SiTailwindcss title="TailwindCSS" />,
+              <SiReact title="React" />,
+              <SiFramer title="Framer Motion" />,
+            ].map((icon, index) => {
+              return <div key={index}>{icon}</div>;
+            })}
             style1={"items-start"}
             style2={"xl:justify-start"}
             style3={"xl:-right-16"}
             link1={"https://github.com/lgrinders/WeatherIt"}
+            altText={"WeatherIt website front page"}
           />
         </div>
       </div>

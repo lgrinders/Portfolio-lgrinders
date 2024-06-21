@@ -19,10 +19,13 @@ export default function Links() {
         }}
       >
         <a href="https://github.com/lgrinders" target="blank_">
-          <FaGithubSquare />
+          <FaGithubSquare title="Github" />
         </a>
-        <a href="">
-          <FaLinkedin />
+        <a
+          href="https://www.linkedin.com/in/landon-grinderslev-b8a546315/"
+          target="blank_"
+        >
+          <FaLinkedin title="LinkedIn" />
         </a>
       </motion.div>
     </>

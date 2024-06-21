@@ -7,15 +7,17 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
 
 export default function MySkills() {
   const skillsArray = [
-    <SiReact />,
-    <SiJavascript />,
-    <SiTailwindcss />,
-    <SiFramer />,
-    <SiHtml5 />,
-    <SiCss3 />,
+    <SiReact title="React"/>,
+    <SiJavascript title="Javascript"/>,
+    <SiTailwindcss title="TailwindCSS"/>,
+    <SiFramer title="Framer Motion"/>,
+    <SiHtml5 title="HTML"/>,
+    <SiCss3 title="CSS"/>,
+    <FaGithub title="Github"/>,
   ];
 
   return (
@@ -36,8 +38,8 @@ export default function MySkills() {
           type: "tween",
         }}
       >
-        <div className="w-1/3 text-xl">Current Skills</div>
-        <div className="flex w-2/3 justify-evenly gap-1 text-4xl xl:gap-4 xl:text-5xl">
+        <div className="text-xl">My Skills</div>
+        <div className="flex justify-between gap-5 text-4xl xl:gap-5 xl:text-6xl">
           {skillsArray.map((logo, index) => {
             return <motion.div key={index}>{logo}</motion.div>;
           })}
