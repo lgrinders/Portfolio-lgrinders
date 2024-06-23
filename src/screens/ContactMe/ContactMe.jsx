@@ -17,7 +17,7 @@ export default function ContactMe() {
           <p className="font-DMMono text-lg dark:text-neutral-500">
             I'm currently looking for opportunities. A full time job is what I
             am most interested in. Send me a message and I will get back to you
-            very soon!
+            as soon as possible!
           </p>
           <div className="flex justify-center gap-5 font-Syne font-bold">
             <div className="flex flex-col items-center justify-center gap-3">
