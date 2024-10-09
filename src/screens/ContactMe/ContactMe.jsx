@@ -1,5 +1,5 @@
 import { SiMaildotru } from "react-icons/si";
-import { FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Button from "../../components/Button/Button";
 
@@ -43,6 +43,18 @@ export default function ContactMe() {
               />
               <h2 className="text-neutral-700 dark:text-neutral-500 font-DMMono font-medium">
                 @grinders.dev
+              </h2>
+            </div>
+            <div className="flex flex-col items-center justify-center gap-3">
+              <Button
+                text={[<FaDiscord />, "Message Me"].map(
+                  (item, index) => {
+                    return <div key={index}>{item}</div>;
+                  },
+                )}
+              />
+              <h2 className="text-neutral-700 dark:text-neutral-500 font-DMMono font-medium">
+                grindersdev
               </h2>
             </div>
           </div>
