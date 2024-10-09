@@ -13,6 +13,62 @@ export default function Projec() {
             Some Things I've Built
           </h2>
           <TiltCard
+            name={"Sunday Salad"}
+            image={"./public/Sunday Salad image.jpg"}
+            paragraph={
+              "Sunday Salad is a clean and user-friendly recipe search website. It lets you search an ingredient and it will return with recipes that you can make. When you find a recipe that you like you are able to favorite for use at another time."
+            }
+            icons={[
+              <SiTailwindcss title="TailwindCSS" />,
+              <SiReact title="React" />,
+            ].map((icon, index) => {
+              return <div key={index}>{icon}</div>;
+            })}
+            style1={"items-start"}
+            style2={"xl:justify-start"}
+            style3={"xl:-right-16"}
+            link1={"https://github.com/lgrinders/RecipieApp-Sunday-Salad"}
+            altText={"Sunday Salad overview"}
+          />
+          <TiltCard
+            name={"Amazon Clone"}
+            image={"./public/Amazon Clone image.jpg"}
+            paragraph={
+              "This is a website I built to closely resemble the Amazon desktop home page. It features all of the dropdowns, sidebars, image carosels and product sliders that are a part of the Amazon home page."
+            }
+            icons={[
+              <SiTailwindcss title="Tailwind" />,
+              <SiReact title="React" />,
+              <SiCss3 title="CSS" />,
+            ].map((icon, index) => {
+              return <div key={index}>{icon}</div>;
+            })}
+            style1={"items-end"}
+            style2={"xl:justify-end"}
+            style3={"xl:-left-16"}
+            link1={"https://github.com/lgrinders/AmazonClone"}
+            altText={"AmazonClone overview"}
+          />
+          <TiltCard
+            name={"Trending"}
+            image={"./public/Trending image.jpg"}
+            paragraph={
+              "WeatherIt is a clean website that uses two apis working in conjunction to fetch location and weather data. It also has an animated svg in the background for a playfull look."
+            }
+            icons={[
+              <SiTailwindcss title="TailwindCSS" />,
+              <SiReact title="React" />,
+            ].map((icon, index) => {
+              return <div key={index}>{icon}</div>;
+            })}
+            style1={"items-start"}
+            style2={"xl:justify-start"}
+            style3={"xl:-right-16"}
+            link1={"https://github.com/lgrinders/Ecommerce-Trending"}
+            altText={"Trending overview"}
+          />
+
+          <TiltCard
             name={"Carmera"}
             image={"./public/CarmeraImage.png"}
             paragraph={
@@ -21,7 +77,7 @@ export default function Projec() {
             icons={[
               <SiTailwindcss title="Tailwind" />,
               <SiReact title="React" />,
-              <SiCss3 title="CSS"/>
+              <SiCss3 title="CSS" />,
             ].map((icon, index) => {
               return <div key={index}>{icon}</div>;
             })}
