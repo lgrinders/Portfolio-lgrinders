@@ -70,7 +70,7 @@ export default function Projec() {
 
           <TiltCard
             name={"Carmera"}
-            image={"./public/CarmeraImage.png"}
+            image={"./public/Carmera image.jpg"}
             paragraph={
               "Carmera is a efficient and sleek website for car photography. Users can get extimates, view a photo gallery and get information about everything having to do with Carmera's services."
             }
