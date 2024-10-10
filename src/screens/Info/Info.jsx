@@ -5,10 +5,10 @@ export default function Info() {
   return (
     <>
       <div
-        className="flex min-h-screen w-screen items-center justify-center text-neutral-700 dark:text-neutral-500"
+        className="flex min-h-screen w-screen items-center justify-center px-5 text-neutral-700 dark:text-neutral-500"
         id="about"
       >
-        <div className="flex max-w-[1100px] flex-col items-center justify-center gap-10 p-5 xl:flex-row xl:gap-5">
+        <div className="flex max-w-[1100px] flex-col items-center justify-center gap-10 xl:flex-row xl:gap-5">
           <div className="flex flex-col justify-center gap-10">
             <h2 className="font-Syne text-5xl font-bold">About</h2>
             <p className="font-DMMono text-lg xl:w-[700px]">

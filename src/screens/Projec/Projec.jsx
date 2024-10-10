@@ -8,7 +8,7 @@ export default function Projec() {
         className="mt-52 flex min-h-screen w-screen items-center justify-center text-neutral-700 dark:text-neutral-500 xl:mt-0"
         id="projects"
       >
-        <div className="flex w-full max-w-[1100px] flex-col justify-center p-5 xl:gap-52">
+        <div className="flex w-full max-w-[1100px] flex-col justify-center px-5 xl:gap-52">
           <h2 className="font-Syne text-5xl font-bold">
             Some Things I've Built
           </h2>
