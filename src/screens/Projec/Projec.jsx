@@ -85,11 +85,11 @@ export default function Projec() {
             style2={"xl:justify-end"}
             style3={"xl:-left-16"}
             link1={"https://github.com/lgrinders/Carmera"}
-            altText={"Carmera website front page"}
+            altText={"Carmera overview"}
           />
           <TiltCard
             name={"WeatherIt"}
-            image={"./public/WeatherItImage.png"}
+            image={"./public/WeatherIt image.jpg"}
             paragraph={
               "WeatherIt is a clean website that uses two apis working in conjunction to fetch location and weather data. It also has an animated svg in the background for a playfull look."
             }
@@ -103,8 +103,8 @@ export default function Projec() {
             style1={"items-start"}
             style2={"xl:justify-start"}
             style3={"xl:-right-16"}
-            link1={"https://github.com/lgrinders/WeatherIt"}
-            altText={"WeatherIt website front page"}
+            link1={"https://github.com/lgrinders/WeatherApp-WeatherIt"}
+            altText={"WeatherIt overview"}
           />
         </div>
       </div>
