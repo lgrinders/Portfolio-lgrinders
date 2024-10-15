@@ -14,7 +14,7 @@ export default function Projec() {
           </h2>
           <TiltCard
             name={"Sunday Salad"}
-            image={"./public/Sunday Salad image.jpg"}
+            image={"Sunday Salad image.jpg"}
             paragraph={
               "Sunday Salad is a clean and user-friendly recipe search website. It lets you search an ingredient and it will return with recipes that you can make. When you find a recipe that you like you are able to favorite for use at another time."
             }
@@ -33,7 +33,7 @@ export default function Projec() {
           />
           <TiltCard
             name={"Amazon Clone"}
-            image={"./public/Amazon Clone image.jpg"}
+            image={"Amazon Clone image.jpg"}
             paragraph={
               "This is a website I built to closely resemble the Amazon desktop home page. It features all of the dropdowns, sidebars, image carosels and product sliders that are a part of the Amazon home page."
             }
@@ -53,7 +53,7 @@ export default function Projec() {
           />
           <TiltCard
             name={"Trending"}
-            image={"./public/Trending image.jpg"}
+            image={"Trending image.jpg"}
             paragraph={
               "WeatherIt is a clean website that uses two apis working in conjunction to fetch location and weather data. It also has an animated svg in the background for a playfull look."
             }
@@ -73,7 +73,7 @@ export default function Projec() {
 
           <TiltCard
             name={"Carmera"}
-            image={"./public/Carmera image.jpg"}
+            image={"Carmera image.jpg"}
             paragraph={
               "Carmera is a efficient and sleek website for car photography. Users can get extimates, view a photo gallery and get information about everything having to do with Carmera's services."
             }
@@ -93,7 +93,7 @@ export default function Projec() {
           />
           <TiltCard
             name={"WeatherIt"}
-            image={"./public/WeatherIt image.jpg"}
+            image={"WeatherIt image.jpg"}
             paragraph={
               "WeatherIt is a clean website that uses two apis working in conjunction to fetch location and weather data. It also has an animated svg in the background for a playfull look."
             }
