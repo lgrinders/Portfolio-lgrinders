@@ -1,14 +1,14 @@
-<h1>Sunday Salad</h1> 
-<p>Sunday Salad is a clean and user-friendly recipe search website.</p> 
-<h2>Features</h2> 
-<ul> 
-  <li>Search for ingredients and discover recipes that include them.</li> 
-  <li>Results are filtered to display only high-quality images.</li> 
-  <li>Save your favorite recipes for easy access later.</li> 
-  <li>Your favorites are saved even after refreshing the page.</li> 
-  <li>Responsive, intuitive, and simple UI.</li> 
+<h1>Welcome to My Portfolio</h1>
+<p>Explore my personal portfolio, featuring:</p>
+<h2>Features</h2>
+<ul>
+  <li>A custom animation I created using Framer Motion and Krita.</li>
+  <li>A brief introduction to me and my key skills.</li>
+  <li>Project showcase cards linking to some of my recent work.</li>
+  <li>Contact information for getting in touch with me.</li>
 </ul>
 
 
 
-![Overview of Sunday Salad](https://github.com/lgrinders/RecipieApp/blob/main/Sunday%20Salad%20image.jpg?raw=true)
+
+![Overview of Sunday Salad](https://github.com/lgrinders/Portfolio-lgrinders/blob/main/Portfolio%20Image.jpg?raw=true)
