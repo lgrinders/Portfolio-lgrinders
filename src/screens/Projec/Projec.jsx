@@ -27,7 +27,8 @@ export default function Projec() {
             style1={"items-start"}
             style2={"xl:justify-start"}
             style3={"xl:-right-16"}
-            link1={"https://lgrinders.github.io/RecipeApp-Sunday-Salad/"}
+            link1={"https://github.com/lgrinders/RecipeApp-Sunday-Salad"}
+            link2={"https://lgrinders.github.io/RecipeApp-Sunday-Salad/"}
             altText={"Sunday Salad overview"}
           />
           <TiltCard
@@ -47,6 +48,7 @@ export default function Projec() {
             style2={"xl:justify-end"}
             style3={"xl:-left-16"}
             link1={"https://github.com/lgrinders/AmazonClone"}
+            link2={"https://lgrinders.github.io/AmazonClone/"}
             altText={"AmazonClone overview"}
           />
           <TiltCard
@@ -64,7 +66,8 @@ export default function Projec() {
             style1={"items-start"}
             style2={"xl:justify-start"}
             style3={"xl:-right-16"}
-            link1={"https://lgrinders.github.io/Ecommerce-Trending/"}
+            link1={"https://github.com/lgrinders/Ecommerce-Trending"}
+            link2={"https://lgrinders.github.io/Ecommerce-Trending/"}
             altText={"Trending overview"}
           />
 
@@ -84,7 +87,8 @@ export default function Projec() {
             style1={"items-end"}
             style2={"xl:justify-end"}
             style3={"xl:-left-16"}
-            link1={"https://lgrinders.github.io/Small-Business-Carmera/"}
+            link1={"https://github.com/lgrinders/small-Business-Carmera"}
+            link2={"https://lgrinders.github.io/Small-Business-Carmera/"}
             altText={"Carmera overview"}
           />
           <TiltCard
@@ -103,7 +107,8 @@ export default function Projec() {
             style1={"items-start"}
             style2={"xl:justify-start"}
             style3={"xl:-right-16"}
-            link1={"https://lgrinders.github.io/WeatherApp-WeatherIt/"}
+            link1={"https://github.com/lgrinders/WeatherApp-WeatherIt"}
+            link2={"https://lgrinders.github.io/WeatherApp-WeatherIt/"}
             altText={"WeatherIt overview"}
           />
         </div>
