@@ -1,23 +1,23 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import AnimatedHamburger from "../AnimatedHamburger/AnimatedHamburgerButton";
 import DarkModeButton from "../DarkModeButton/DarkModeButton";
 
-export default function Navigation({ darkMode, setDarkMode }) {
+export default function Navigation({ darkMode, setDarkMode, refs }) {
   const [active, setActive] = useState(false);
 
   const linkClasses =
     "bg-black/20 rounded-2xl py-1 px-2.5 hover:bg-black/50 dark:bg-white/20 dark:hover:bg-white/50 duration-200";
 
   const navLinks = [
-    { title: "Home", href: "/#home" },
-    { title: "About", href: "/#about" },
-    { title: "Projects", href: "/#projects" },
-    { title: "Contact", href: "/#contact" },
+    { title: "Home", ref: refs.homeRef },
+    { title: "About", ref: refs.aboutRef },
+    { title: "Projects", ref: refs.projectsRef },
+    { title: "Contact", ref: refs.contactRef },
   ];
 
   return (
     <>
-      <div className="absolute top-0 z-50 flex w-screen items-center justify-between px-10 py-5 font-Syne">
+      <div className="absolute top-0 z-50 flex w-screen cursor-pointer items-center justify-between px-10 py-5 font-Syne">
         <a href="" className="font-semibold text-white">
           Grinders.dev
         </a>
@@ -28,9 +28,16 @@ export default function Navigation({ darkMode, setDarkMode }) {
               {navLinks.map((link, index) => {
                 return (
                   <li key={index}>
-                    <a href={link.href} className={linkClasses}>
+                    <div
+                      onClick={() => {
+                        link.ref.current?.scrollIntoView({
+                          behavior: "smooth",
+                        });
+                      }}
+                      className={linkClasses}
+                    >
                       {link.title}
-                    </a>
+                    </div>
                   </li>
                 );
               })}

@@ -1,7 +1,10 @@
 import TiltCard from "../../components/TiltCard/TiltCard";
 import { SiTailwindcss, SiReact, SiFramer, SiCss3 } from "react-icons/si";
+import { useRef } from "react";
 
 export default function Projec() {
+  const projectsRef = useRef();
+
   return (
     <>
       <div
