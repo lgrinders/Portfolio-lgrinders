@@ -5,10 +5,10 @@ export default function AnimatedHamburger({ active, setActive }) {
     "text-5xl font-bold text-neutral-700 hover:text-neutral-200 dark:text-white dark:hover:text-neutral-500 rounded-full py-2 duration-300 flex justify-center px-5";
 
   const navLinks = [
-    { title: "Home", href: "/#home", className: navClasses },
-    { title: "About", href: "/#about", className: navClasses },
-    { title: "Projects", href: "/#projects", className: navClasses },
-    { title: "Contact", href: "/#contact", className: navClasses },
+    { title: "Home", href: "#home", className: navClasses },
+    { title: "About", href: "#about", className: navClasses },
+    { title: "Projects", href: "#projects", className: navClasses },
+    { title: "Contact", href: "#contact", className: navClasses },
   ];
 
   const bigSquareMenuVars = {
