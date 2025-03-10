@@ -1,5 +1,5 @@
 import TiltCard from "../../components/TiltCard/TiltCard";
-import { SiTailwindcss, SiReact, SiFramer, SiCss3 } from "react-icons/si";
+import { SiTailwindcss, SiReact, SiFramer, SiCss3, SiNextdotjs, SiTypescript } from "react-icons/si";
 import { useRef } from "react";
 
 export default function Projec() {
@@ -15,6 +15,24 @@ export default function Projec() {
           <h2 className="font-Syne text-5xl font-bold">
             Some Things I've Built
           </h2>
+          <TiltCard
+            name={"Elite Brothers Fire"}
+            image={"EliteBrothersFireShowcase.jpg"}
+            paragraph={"Elite Brothers Fire is a professional business website designed to be clean and user-friendly, providing customers with all the information they need to connect with the company."}
+            icons={[
+              <SiTailwindcss title="TailwindCSS" />,
+              <SiNextdotjs title="Nextjs" />,
+              <SiTypescript title="Typescript" />,
+            ].map((icon, index) => {
+              return <div key={index}>{icon}</div>;
+            })}
+            style1={"items-end"}
+            style2={"xl:justify-end"}
+            style3={"xl:-left-16"}
+            link1={"https://github.com/lgrinders/elitebrothersfirenext"}
+            link2={"https://elitebrothersfirenext.vercel.app/"}
+            altText={"EliteBrothersFire&Safety"}
+          />
           <TiltCard
             name={"Sunday Salad"}
             image={"Sunday Salad image.jpg"}

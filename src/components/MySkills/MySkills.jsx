@@ -3,21 +3,21 @@ import {
   SiHtml5,
   SiCss3,
   SiReact,
-  SiFramer,
   SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
 } from "react-icons/si";
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
 
 export default function MySkills() {
   const skillsArray = [
     <SiReact title="React" />,
     <SiJavascript title="Javascript" />,
+    <SiTypescript title="Typescript" />,
+    <SiNextdotjs title="NextJS" />,
     <SiTailwindcss title="TailwindCSS" />,
-    <SiFramer title="Framer Motion" />,
     <SiHtml5 title="HTML" />,
     <SiCss3 title="CSS" />,
-    <FaGithub title="Github" />,
   ];
 
   return (

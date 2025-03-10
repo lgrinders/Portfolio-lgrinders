@@ -15,7 +15,7 @@ export default function ChangingImage() {
           ease: "easeInOut",
         }}
       >
-        <img src="me.jpg" alt="Me" />
+        <img src="me.png" alt="Me" />
       </motion.div>
     </>
   );
