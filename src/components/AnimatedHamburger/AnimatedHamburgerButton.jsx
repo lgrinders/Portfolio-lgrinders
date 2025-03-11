@@ -54,6 +54,7 @@ export default function AnimatedHamburger({ active, setActive }) {
       }}
     >
       <motion.button
+        aria-label="navigation toggle"
         className={`relative z-50 h-10 w-10 rounded-full ${
           active ? null : "hover:bg-black/20"
         } transition-colors`}
